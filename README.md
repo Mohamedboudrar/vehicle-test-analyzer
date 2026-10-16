@@ -8,7 +8,7 @@ Pipeline de traitement et d'analyse de données issues de **tests automobiles** 
 
 ---
 
-## Architecture 
+## Architecture  
 
 ```
                  ┌────────────────────────── pipeline (Pandas ou PySpark) ──────────────────────────┐
