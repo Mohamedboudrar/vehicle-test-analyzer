@@ -1,0 +1,24 @@
+# docker compose up --build
+#   1) "pipeline": generates data, runs the PySpark pipeline + Isolation Forest, writes SQLite into ./data
+#   2) "dashboard": Streamlit on http://localhost:8501 (starts once the pipeline has finished)
+services:
+  pipeline:
+    build: .
+    command: python -m vta.run_pipeline --engine spark --regenerate
+    volumes:
+      - ./data:/app/data
+
+  dashboard:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data
+    depends_on:
+      pipeline:
+        condition: service_completed_successfully
+
+  tests:
+    build: .
+    command: python -m pytest -q
+    profiles: ["test"]
