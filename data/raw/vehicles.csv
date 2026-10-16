@@ -1,0 +1,13 @@
+vehicle_id,model,fuel_type,engine_cc,mass_kg,model_year
+VEH-01,Compact 1.0 petrol,petrol,999,1086,2021
+VEH-02,Compact 1.5 diesel,diesel,1461,1141,2019
+VEH-03,Hatch 1.2 petrol,petrol,1199,1081,2023
+VEH-04,Saloon 1.5 diesel,diesel,1461,1327,2020
+VEH-05,Hatch 1.4 petrol,petrol,1395,1315,2021
+VEH-06,SUV 1.5 diesel,diesel,1461,1333,2020
+VEH-07,Compact 1.0 petrol,petrol,999,1097,2021
+VEH-08,Compact 1.5 diesel,diesel,1461,1143,2021
+VEH-09,Hatch 1.2 petrol,petrol,1199,1042,2021
+VEH-10,Saloon 1.5 diesel,diesel,1461,1338,2023
+VEH-11,Hatch 1.4 petrol,petrol,1395,1271,2021
+VEH-12,SUV 1.5 diesel,diesel,1461,1327,2024

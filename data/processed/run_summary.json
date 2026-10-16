@@ -1,0 +1,22 @@
+{
+  "engine": "pandas",
+  "rows": 56610,
+  "tests": 48,
+  "flagged_points": 1136,
+  "events": 90,
+  "braking_events": 137,
+  "contamination": 0.02,
+  "seconds": {
+    "pipeline": 0.9,
+    "model": 9.6,
+    "total": 11.5
+  },
+  "evaluation_vs_injected_labels": {
+    "n_injected_behavior": 76,
+    "n_detected_events": 90,
+    "event_recall": 0.711,
+    "event_precision": 0.811,
+    "point_recall": 0.331,
+    "point_precision": 0.781
+  }
+}
